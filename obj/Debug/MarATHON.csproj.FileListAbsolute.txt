@@ -1,0 +1,131 @@
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\bin\Debug\MarATHON.exe.config
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\bin\Debug\MarATHON.exe
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\bin\Debug\MarATHON.pdb
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.csprojResolveAssemblyReference.cache
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.Properties.Resources.resources
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.csproj.GenerateResource.Cache
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.exe
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.pdb
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.Sponsor.resources
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.run.resources
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.newrunner.resources
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.newrunner1.resources
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.Mains.resources
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.formpay.resources
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.info.resources
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.blagorg.resources
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.dopform.resources
+C:\Users\user07\Desktop\464\MARATHON\MarATHON\obj\Debug\MarATHON.UserCont.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\bin\Debug\MarATHON.exe.config
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.exe
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.pdb
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.csprojResolveAssemblyReference.cache
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.blagorg.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.dopform.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.formpay.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.info.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.Mains.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.newrunner.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.newrunner1.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.Sponsor.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.run.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.Properties.Resources.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.UserCont.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.csproj.GenerateResource.Cache
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\bin\Debug\MarATHON.exe
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\bin\Debug\MarATHON.pdb
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.menuadmin.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.menukoor.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.menurun.resources
+C:\Users\user07\Desktop\464\марафон\MARATHON\MarATHON\obj\Debug\MarATHON.newrunerr3.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.csprojAssemblyReference.cache
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.blagorg.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.dopform.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.formpay.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.info.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.Mains.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.menuadmin.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.menukoor.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.menurun.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.newrunerr3.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.newrunner.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.newrunner1.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.Sponsor.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.run.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.Properties.Resources.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.UserCont.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.csproj.GenerateResource.cache
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.csproj.CoreCompileInputs.cache
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.exe
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.pdb
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\bin\Debug\MarATHON.exe.config
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\bin\Debug\MarATHON.exe
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\bin\Debug\MarATHON.pdb
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.Dotv8.resources
+C:\Users\Papa\Desktop\Новая папка (2)\MARATHON\MarATHON\obj\Debug\MarATHON.redaktbegun.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.csprojAssemblyReference.cache
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.blagorg.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.dopform.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.Dotv8.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.formpay.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.info.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.Mains.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.menuadmin.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.menukoor.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.menurun.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.newrunerr3.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.newrunner.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.newrunner1.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.redaktbegun.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.Sponsor.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.run.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.Properties.Resources.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.UserCont.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.csproj.GenerateResource.cache
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.csproj.CoreCompileInputs.cache
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.exe
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.pdb
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\bin\Debug\MarATHON.exe.config
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\bin\Debug\MarATHON.exe
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\bin\Debug\MarATHON.pdb
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.results.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.Information.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.BMI.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.Zrilell.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.PredRezult.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.naskolkod.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.Inventory.resources
+C:\Users\namemustbefree\Downloads\MarATHON\MarATHON\obj\Debug\MarATHON.InventoryAdd.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\bin\Debug\MarATHON.exe.config
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\bin\Debug\MarATHON.exe
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\bin\Debug\MarATHON.pdb
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.csprojAssemblyReference.cache
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.blagorg.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.BMI.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.dopform.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.Dotv8.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.Information.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.formpay.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.info.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.Inventory.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.InventoryAdd.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.Mains.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.menuadmin.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.menukoor.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.menurun.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.naskolkod.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.newrunerr3.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.newrunner.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.newrunner1.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.PredRezult.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.redaktbegun.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.results.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.Sponsor.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.run.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.Properties.Resources.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.UserCont.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.Zrilell.resources
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.csproj.GenerateResource.cache
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.csproj.CoreCompileInputs.cache
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.exe
+C:\Users\namemustbefree\Desktop\MarATHON\MarATHON\obj\Debug\MarATHON.pdb
