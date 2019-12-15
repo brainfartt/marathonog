@@ -41,19 +41,30 @@ namespace MarATHON
 
         private void button6_Click(object sender, EventArgs e)
         {
+            this.Hide();
             BMI frm = new BMI();
             frm.Show();
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             naskolkod frm = new naskolkod();
             frm.Show();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            this.Hide();
             naskolkod frm = new naskolkod();
             frm.Show();
+        }
+
+        private void Back_Click(object sender, EventArgs e)
+        {
+            Mains open = new Mains();
+            open.Show();
+            this.Close();
+
         }
     }
 }

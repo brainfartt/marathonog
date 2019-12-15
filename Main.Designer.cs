@@ -62,7 +62,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(38, 301);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(294, 94);
@@ -73,6 +73,8 @@
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button2.Location = new System.Drawing.Point(38, 148);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(294, 107);
@@ -83,6 +85,8 @@
             // 
             // button3
             // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button3.Location = new System.Drawing.Point(390, 149);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(274, 106);
@@ -93,6 +97,8 @@
             // 
             // button4
             // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button4.Location = new System.Drawing.Point(390, 302);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(274, 94);
@@ -103,9 +109,11 @@
             // 
             // Login
             // 
-            this.Login.Location = new System.Drawing.Point(581, 412);
+            this.Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Login.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Login.Location = new System.Drawing.Point(559, 402);
             this.Login.Name = "Login";
-            this.Login.Size = new System.Drawing.Size(75, 23);
+            this.Login.Size = new System.Drawing.Size(97, 33);
             this.Login.TabIndex = 5;
             this.Login.Text = "Login";
             this.Login.UseVisualStyleBackColor = true;
@@ -114,7 +122,8 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(158, 9);
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(168, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(366, 38);
             this.label1.TabIndex = 6;
@@ -122,6 +131,7 @@
             // 
             // label2
             // 
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(292, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(118, 39);
@@ -131,11 +141,13 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(589, 120);
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button7.Location = new System.Drawing.Point(559, 114);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.Size = new System.Drawing.Size(105, 29);
             this.button7.TabIndex = 10;
-            this.button7.Text = "button7";
+            this.button7.Text = "Инвентарь";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -156,6 +168,8 @@
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Name = "Mains";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Mains_FormClosed);
+            this.Load += new System.EventHandler(this.Mains_Load);
             this.ResumeLayout(false);
 
         }

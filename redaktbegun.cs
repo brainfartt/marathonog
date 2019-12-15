@@ -39,12 +39,7 @@ namespace MarATHON
         {
             
             //string email = textBox5.Text;
-            string name = textBox6.Text;
-            string surname = textBox9.Text;
-            string password = textBox8.Text;
-            string sex = comboBox3.Text;
-            string date = dateTimePicker2.Text;
-            string country = comboBox4.Text;
+           
 
 
             string pattern = @"^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$";
@@ -54,10 +49,10 @@ namespace MarATHON
             Regex t = new Regex(pattern1, RegexOptions.IgnoreCase);
 
             //bool matched = r.Match(textBox5.Text).Success;
-            bool matched1 = t.Match(textBox8.Text).Success;
+           // bool matched1 = t.Match(textBox8.Text).Success;
             if (comboBox3.Text == "" || textBox6.Text == "" || dateTimePicker2.Text == "" || comboBox4.Text == "" || textBox9.Text == "") MessageBox.Show("Есть пустые поля");
            // else if (matched != true) MessageBox.Show("Мыло то не торот");
-            else if (matched1 != true) MessageBox.Show("Павроль то не торот, пароль должен содержать как минимум 6 символов, рсреди них должен быть специальный символ");
+           // else if (matched1 != true) MessageBox.Show("Павроль то не торот, пароль должен содержать как минимум 6 символов, рсреди них должен быть специальный символ");
             
             else if (textBox10.Text != textBox11.Text)
             {
@@ -66,6 +61,21 @@ namespace MarATHON
             }
             else
             {
+
+                string conn = @"Data Source=DESKTOP-EHCC0UU;Initial Catalog=g464_Golubtsov;Integrated Security=true;MultipleActiveResultSets=True";
+                string str = "UPDATE [User] SET[Password]='" + textBox10.Text + "',[FirstName]='"+ textBox6.Text+"',[LastName]='"+textBox9.Text+"'WHERE [Email] = '"+label22.Text+"'";
+                // string str2 = "INSERT INTO [Runner] ([Email],[Gender],[DateOfBirth],[CountryCode]) VALUES ('" + textBox1.Text + "','" + comboBox1.Text + "','" + data + "','" + comboBox2.Text + "')";
+                SqlConnection con = new SqlConnection(conn);
+                con.Open();
+                SqlCommand cmd = new SqlCommand(str, con);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Done!");
+
+                menurun open = new menurun();
+                open.Show();
+                this.Close();
+
+
                 //тут будет отправка на сервер
             }
 
@@ -150,6 +160,13 @@ namespace MarATHON
         private void textBox11_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+           menurun open = new menurun();
+            open.Show();
+            this.Hide();
         }
     }
 }

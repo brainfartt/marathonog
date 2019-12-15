@@ -21,12 +21,21 @@ namespace MarATHON
         {
             redaktbegun yyy22 = new redaktbegun();
             yyy22.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             results yyy22 = new results();
             yyy22.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Mains open = new Mains();
+            open.Show();
+            this.Close();
         }
     }
 }

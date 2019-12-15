@@ -43,27 +43,27 @@ namespace MarATHON
             //string Dataa = dateTimePicker1.Value.Date.ToShortDateString();
             // Convert.ToDateTime(dateTimePicker1.Text).ToShortDateString("yyyy-MM-dd hh:mm:sss");
 
-            if (textBox1.Text == "" || comboBox2.Text == "" || textBox4.Text == "" || textBox5.Text == "" || textBox6.Text == "" || textBox7.Text == "" || textBox8.Text == "" || comboBox1.Text == "" || dateTimePicker1.Text == "") MessageBox.Show("Есть пустые поля");
+            if (textBox1.Text == "" || comboBox2.Text == "" || textBox5.Text == "" || textBox6.Text == "" || textBox7.Text == "" || textBox8.Text == "" || comboBox1.Text == "" || dateTimePicker1.Text == "") MessageBox.Show("Есть пустые поля");
             bool matched = r.Match(textBox1.Text).Success;
             //bool matched1 = t.Match(textBox8.Text).Success;
 
             if (matched != true) MessageBox.Show("Мыло то не торот");
-           // else if (matched1 != true) MessageBox.Show("Павроль то не торот, пароль должен содержать как минимум 6 символов, рсреди них должен быть специальный символ");
+           // else if (matched1 != true) MessageBox.Show("Пароль то не торот, пароль должен содержать как минимум 6 символов, рсреди них должен быть специальный символ");
             else if (textBox8.Text == textBox7.Text)
             {
                 //Rega(dateTimePicker1.Value, textBox1.Text, textBox7.Text, textBox6.Text, textBox5.Text, textBox1.Text, comboBox1.Text, comboBox2.Text);
-                
-                //string data = dateTimePicker1.Value.ToString("yyyy-MM-dd hh:mm:ss.hs");
-                //string conn = "Data Source=127.0.0.1;Initial Catalog=g464_Golubtsov;User ID=student;Password=student";
-                //string str = "INSERT INTO [user] ([Email],[Password],[FirstName],[LastName],[RoleId]) VALUES ('" + textBox1.Text + "','" + textBox7.Text + "','" + textBox6.Text + "','" + textBox5.Text + "','R')";
-                //string str2 = "INSERT INTO [Runner] ([Email],[Gender],[DateOfBirth],[CountryCode]) VALUES ('" + textBox1.Text + "','" + comboBox1.Text + "','" + data + "','" + comboBox2.Text + "')";
-                //SqlConnection con = new SqlConnection(conn);
-                //con.Open();
-                //SqlCommand cmd = new SqlCommand(str, con);
-                //cmd.ExecuteNonQuery();
-                //SqlCommand cmd2 = new SqlCommand(str2, con);
-                //cmd2.ExecuteNonQuery();
-                //con.Close();
+
+                string data = dateTimePicker1.Value.ToString("yyyy-MM-dd hh:mm:ss.hs");
+                string conn = @"Data Source=DESKTOP-EHCC0UU;Initial Catalog=g464_Golubtsov;Integrated Security=true;MultipleActiveResultSets=True";
+                string str = "INSERT INTO [user] ([Email],[Password],[FirstName],[LastName],[RoleId]) VALUES ('" + textBox1.Text + "','" + textBox7.Text + "','" + textBox6.Text + "','" + textBox5.Text + "','R')";
+                string str2 = "INSERT INTO [Runner] ([Email],[Gender],[DateOfBirth],[CountryCode]) VALUES ('" + textBox1.Text + "','" + comboBox1.Text + "','" + data + "','" + comboBox2.Text + "')";
+                SqlConnection con = new SqlConnection(conn);
+                con.Open();
+                SqlCommand cmd = new SqlCommand(str, con);
+                cmd.ExecuteNonQuery();
+                SqlCommand cmd2 = new SqlCommand(str2, con);
+                cmd2.ExecuteNonQuery();
+                con.Close();
                 newrunerr3 yyy5 = new newrunerr3();
                 yyy5.Show();
             }
@@ -76,6 +76,31 @@ namespace MarATHON
 
         private void newrunner1_Load(object sender, EventArgs e)
         {
+
+            string conn = @"Data Source=DESKTOP-EHCC0UU;Initial Catalog=g464_Golubtsov;Integrated Security=true;MultipleActiveResultSets=True";
+            string str = "SELECT [Gender] FROM [Gender]";
+            SqlConnection con = new SqlConnection(conn);
+            con.Open();
+            SqlCommand cmd = new SqlCommand(str, con);
+            SqlDataReader rdr = cmd.ExecuteReader();
+
+            while (rdr.Read())
+            {
+                comboBox1.Items.Add(rdr.GetString(0));
+            }
+            con.Close();
+            //string conn = @"Data Source=DESKTOP-EHCC0UU;Initial Catalog=g464_Golubtsov;Integrated Security=true;MultipleActiveResultSets=True";
+            string str1 = "SELECT [CountryCode] FROM [Country]";
+            SqlConnection con1 = new SqlConnection(conn);
+            con1.Open();
+            SqlCommand cmd1 = new SqlCommand(str1, con1);
+            SqlDataReader rdr1 = cmd1.ExecuteReader();
+
+            while (rdr1.Read())
+            {
+                comboBox2.Items.Add(rdr1.GetString(0));
+            }
+
             // TODO: This line of code loads data into the 'g464_GolubtsovDataSet4.Country' table. You can move, or remove it, as needed.
             ////////this.countryTableAdapter1.Fill(this.g464_GolubtsovDataSet4.Country);
             // TODO: This line of code loads data into the 'g464_GolubtsovDataSet3.Country' table. You can move, or remove it, as needed.
@@ -146,6 +171,11 @@ namespace MarATHON
         }
 
         private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
 
         }

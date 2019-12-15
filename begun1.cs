@@ -21,12 +21,14 @@ namespace MarATHON
         {
             newrunner yyy1 = new newrunner();
             yyy1.Show();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             newrunner1 yyy12 = new newrunner1();
             yyy12.Show();
+            this.Close();
         }
     }
 }

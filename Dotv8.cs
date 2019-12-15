@@ -16,5 +16,12 @@ namespace MarATHON
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Mains open = new Mains();
+            open.Show();
+            this.Hide();
+        }
     }
 }

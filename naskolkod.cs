@@ -75,5 +75,12 @@ namespace MarATHON
             label1.Text = "среднее время прохождения этого марафона: "+((asd-asd%60)/60).ToString()+" минут "+(asd%60).ToString()+" секунд";
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            dopform open = new dopform();
+            open.Show();
+            this.Hide();
+        }
     }
 }

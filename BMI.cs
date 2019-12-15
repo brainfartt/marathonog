@@ -59,5 +59,12 @@ namespace MarATHON
             Bitmap MyImage = new Bitmap(filePath);
             pictureBox1.Image = MyImage;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+           dopform open = new dopform();
+            open.Show();
+            this.Hide();
+        }
     }
 }

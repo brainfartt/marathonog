@@ -28,12 +28,24 @@ namespace MarATHON
 
         private void Form2_Load(object sender, EventArgs e)
         {
+
+            string conn = @"Data Source=DESKTOP-EHCC0UU;Initial Catalog=g464_Golubtsov;Integrated Security=true;MultipleActiveResultSets=True";
+            string str = "SELECT [RunnerId] FROM [Runner]";
+            SqlConnection con = new SqlConnection(conn);
+            con.Open();
+            SqlCommand cmd = new SqlCommand(str, con);
+            SqlDataReader rdr = cmd.ExecuteReader();
+
+            while (rdr.Read())
+            {
+                comboBox1.Items.Add(rdr.GetInt32(0));
+            }
             // TODO: This line of code loads data into the 'g464_GolubtsovDataSet2.View_2' table. You can move, or remove it, as needed.
             //this.view_2TableAdapter1.Fill(this.g464_GolubtsovDataSet2.View_2);
             // TODO: This line of code loads data into the 'g464_GolubtsovDataSet1.View_2' table. You can move, or remove it, as needed.
             //this.view_2TableAdapter.Fill(this.g464_GolubtsovDataSet1.View_2);
             // TODO: This line of code loads data into the 'g464_GolubtsovDataSet.staff' table. You can move, or remove it, as needed.
-            this.staffTableAdapter.Fill(this.g464_GolubtsovDataSet.staff);
+            //this.staffTableAdapter.Fill(this.g464_GolubtsovDataSet.staff);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -65,8 +77,10 @@ namespace MarATHON
                             s = s.Replace(" ", "");
                             MessageBox.Show(s);
 
-                            string conn = "Data Source=127.0.0.1;Initial Catalog=g464_Golubtsov;User ID=student;Password=student";
-                            string str = "INSERT INTO [Sponsorship] ([SponsorName],[RegistrationId],[Amount]) VALUES ('" + textBox2.Text + "'," + comboBox1.SelectedValue + "," + textBox1.Text + ")";
+                            string conn = @"Data Source=DESKTOP-EHCC0UU;Initial Catalog=g464_Golubtsov;Integrated Security=true;MultipleActiveResultSets=True";
+                            string str = "INSERT INTO [Sponsorship] ([SponsorName],[RegistrationId],[Amount]) VALUES ('" + textBox2.Text + "'," + comboBox1.Text + "," + textBox1.Text + ".00)";
+                            
+
                             SqlConnection con = new SqlConnection(conn);
                             con.Open();
                             SqlCommand cmd = new SqlCommand(str, con);
@@ -119,7 +133,7 @@ namespace MarATHON
         {
             Mains open = new Mains();
             open.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void Sponsor_Enter(object sender, EventArgs e)
@@ -198,7 +212,19 @@ namespace MarATHON
         {
             Application.Exit();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+          
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Mains open = new Mains();
+            open.Show();
+            this.Hide();
+        }
+    }
 }
     
 

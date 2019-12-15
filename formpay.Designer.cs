@@ -41,11 +41,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1, 9);
+            this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "НАЗАД";
+            this.button1.Text = "Назад";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -75,9 +75,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(256, 378);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(262, 42);
+            this.label3.Size = new System.Drawing.Size(279, 42);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Сумма жервы";
+            this.label3.Text = "Сумма жертвы";
             // 
             // label4
             // 
@@ -97,7 +97,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(119, 20);
             this.label5.TabIndex = 5;
-            this.label5.Text = "Оргонизация";
+            this.label5.Text = "Организация";
             // 
             // DATA6
             // 

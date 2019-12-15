@@ -100,9 +100,8 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(161, 189);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "label1";
             // 
             // label3
             // 
@@ -118,9 +117,8 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(372, 189);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(0, 13);
             this.label4.TabIndex = 2;
-            this.label4.Text = "label1";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
@@ -153,9 +151,8 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(535, 189);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.Size = new System.Drawing.Size(0, 13);
             this.label8.TabIndex = 2;
-            this.label8.Text = "label1";
             this.label8.Click += new System.EventHandler(this.label4_Click);
             // 
             // dataGridView1

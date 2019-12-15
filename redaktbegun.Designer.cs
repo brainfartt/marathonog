@@ -56,6 +56,7 @@
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -285,9 +286,20 @@
             this.textBox5.Size = new System.Drawing.Size(312, 20);
             this.textBox5.TabIndex = 17;
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(107, 329);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 18;
+            this.button6.Text = " Отменить";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // redaktbegun
             // 
             this.ClientSize = new System.Drawing.Size(482, 361);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.splitter1);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.button5);
@@ -376,5 +388,6 @@
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button button6;
     }
 }

@@ -125,7 +125,7 @@
             // 
             this.button2.Location = new System.Drawing.Point(160, 375);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(102, 23);
             this.button2.TabIndex = 11;
             this.button2.Text = "Регистрация";
             this.button2.UseVisualStyleBackColor = true;
@@ -188,11 +188,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(26, 22);
+            this.label6.Location = new System.Drawing.Point(142, 22);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(454, 13);
+            this.label6.Size = new System.Drawing.Size(456, 13);
             this.label6.TabIndex = 18;
-            this.label6.Text = "Поэалуйста заполните всю информацию, чтобы зарегистрироваться в качестве бегуна";
+            this.label6.Text = "Пожалуйста заполните всю информацию, чтобы зарегистрироваться в качестве бегуна";
             // 
             // label7
             // 
@@ -241,7 +241,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(4, -1);
+            this.button6.Location = new System.Drawing.Point(23, 12);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 28;
@@ -252,9 +252,6 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Female",
-            "Male"});
             this.comboBox1.Location = new System.Drawing.Point(118, 244);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(100, 21);
@@ -284,17 +281,15 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 33;
             this.dateTimePicker1.Value = new System.DateTime(2010, 12, 31, 0, 0, 0, 0);
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // comboBox2
             // 
-            this.comboBox2.DataSource = this.countryBindingSource1;
-            this.comboBox2.DisplayMember = "CountryCode";
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(370, 280);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
             this.comboBox2.TabIndex = 31;
-            this.comboBox2.ValueMember = "CountryCode";
             // 
             // countryBindingSource1
             // 

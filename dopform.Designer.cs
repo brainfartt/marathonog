@@ -47,6 +47,7 @@
             this.Back.TabIndex = 0;
             this.Back.Text = "Назад";
             this.Back.UseVisualStyleBackColor = true;
+            this.Back.Click += new System.EventHandler(this.Back_Click);
             // 
             // Marafon
             // 
@@ -73,7 +74,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(138, 52);
             this.button5.TabIndex = 4;
-            this.button5.Text = "Список благотворительный оргонизаций";
+            this.button5.Text = "Список благотворительный организаций";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 

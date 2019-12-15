@@ -90,5 +90,12 @@ namespace MarATHON
             }
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            menurun open = new menurun();
+            open.Show();
+            this.Hide();
+        }
     }
 }

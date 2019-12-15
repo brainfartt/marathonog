@@ -75,14 +75,11 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.DataSource = this.view2BindingSource1;
-            this.comboBox1.DisplayMember = "DisplayName";
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(147, 118);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(270, 21);
             this.comboBox1.TabIndex = 0;
-            this.comboBox1.ValueMember = "Expr1";
             // 
             // view2BindingSource1
             // 
@@ -128,13 +125,12 @@
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.maskedTextBox1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.maskedTextBox1.Location = new System.Drawing.Point(147, 221);
             this.maskedTextBox1.Mask = "0000 0000 0000 0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(270, 20);
             this.maskedTextBox1.TabIndex = 2;
-            this.maskedTextBox1.Text = "1234123412341234";
             this.maskedTextBox1.Enter += new System.EventHandler(this.maskedTextBox1_Enter);
             this.maskedTextBox1.Leave += new System.EventHandler(this.maskedTextBox1_Leave);
             // 
@@ -144,7 +140,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Оплятить";
+            this.button1.Text = "Оплатить";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -179,24 +175,22 @@
             // textBox2
             // 
             this.textBox2.AccessibleName = "";
-            this.textBox2.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.textBox2.Location = new System.Drawing.Point(147, 70);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(270, 20);
             this.textBox2.TabIndex = 7;
             this.textBox2.Tag = "";
-            this.textBox2.Text = "Ваше имя";
             this.textBox2.Enter += new System.EventHandler(this.Sponsor_Enter);
             this.textBox2.Leave += new System.EventHandler(this.textBox2_Leave);
             // 
             // textBox3
             // 
-            this.textBox3.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.textBox3.Location = new System.Drawing.Point(147, 173);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(270, 20);
             this.textBox3.TabIndex = 8;
-            this.textBox3.Text = "Имя владельца";
             this.textBox3.Enter += new System.EventHandler(this.textBox3_Enter);
             this.textBox3.Leave += new System.EventHandler(this.textBox3_Leave);
             // 
@@ -266,37 +260,34 @@
             // 
             // maskedTextBox2
             // 
-            this.maskedTextBox2.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.maskedTextBox2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.maskedTextBox2.Location = new System.Drawing.Point(147, 313);
             this.maskedTextBox2.Mask = "000";
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(33, 20);
             this.maskedTextBox2.TabIndex = 17;
-            this.maskedTextBox2.Text = "123";
             this.maskedTextBox2.Enter += new System.EventHandler(this.maskedTextBox2_Enter);
             this.maskedTextBox2.Leave += new System.EventHandler(this.maskedTextBox2_Leave);
             // 
             // maskedTextBox3
             // 
-            this.maskedTextBox3.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.maskedTextBox3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.maskedTextBox3.Location = new System.Drawing.Point(147, 265);
             this.maskedTextBox3.Mask = "00";
             this.maskedTextBox3.Name = "maskedTextBox3";
             this.maskedTextBox3.Size = new System.Drawing.Size(22, 20);
             this.maskedTextBox3.TabIndex = 18;
-            this.maskedTextBox3.Text = "01";
             this.maskedTextBox3.Enter += new System.EventHandler(this.maskedTextBox3_Enter);
             this.maskedTextBox3.Leave += new System.EventHandler(this.maskedTextBox3_Leave);
             // 
             // god
             // 
-            this.god.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.god.ForeColor = System.Drawing.SystemColors.ControlText;
             this.god.Location = new System.Drawing.Point(204, 265);
             this.god.Mask = "0000";
             this.god.Name = "god";
             this.god.Size = new System.Drawing.Size(31, 20);
             this.god.TabIndex = 19;
-            this.god.Text = "2019";
             this.god.Enter += new System.EventHandler(this.god_Enter);
             this.god.Leave += new System.EventHandler(this.god_Leave);
             // 
@@ -374,8 +365,9 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 26;
-            this.button5.Text = "Отсена";
+            this.button5.Text = "Отмена";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -383,7 +375,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 27;
-            this.button6.Text = "Назалд";
+            this.button6.Text = "Назад";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 

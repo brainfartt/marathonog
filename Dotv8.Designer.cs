@@ -37,9 +37,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(90, 76);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(252, 13);
+            this.label1.Size = new System.Drawing.Size(253, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Спачибо, вы зарегались, но вы меня задолбали";
+            this.label1.Text = "Спаcибо, вы зарегались, но вы меня задолбали";
             // 
             // button1
             // 
@@ -49,6 +49,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Dotv8
             // 

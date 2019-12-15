@@ -75,6 +75,17 @@ namespace MarATHON
         {
             Zrilell yyy = new Zrilell();
             yyy.Show();
+            this.Hide();
+        }
+
+        private void Mains_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Mains_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
     }

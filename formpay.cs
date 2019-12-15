@@ -27,7 +27,7 @@ namespace MarATHON
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Sponsor open = new Sponsor();
+           Mains open = new Mains();
             open.Show();
             this.Close();
         }
